@@ -42,10 +42,12 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  /* background: #0563bb; */
+  background-image: linear-gradient(to bottom, #763ff5, #6732e5, #5824d6, #4915c7, #3800b8) ;
+  
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 9px;
   transition: all 0.4s;
 }
 
@@ -56,7 +58,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  /* background: #0678e3; */
+  background-image: linear-gradient(to bottom, #763ff5, #6732e5, #5824d6, #4915c7, #3800b8);
   color: #fff;
 }
 
@@ -64,6 +67,7 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -229,7 +233,8 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  /* background: #0563bb; */
+  background-image: linear-gradient(to bottom, #763ff5, #6732e5, #5824d6, #4915c7, #3800b8);
 }
 
 .nav-menu a:hover span,
@@ -536,8 +541,9 @@ section {
   transition: 0.9s;
   /* background: rgb(251,126,63);
 background: radial-gradient(circle, rgba(251,126,63,1) 0%, rgba(210,217,89,1) 100%); */
-  background-color: rgb(5, 99, 187);
-  border-radius: 10px;
+  /* background-color: rgb(5, 99, 187); */
+  background-image: linear-gradient(to bottom, #763ff5, #6732e5, #5824d6, #4915c7, #3800b8);
+  border-radius: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -1221,7 +1227,8 @@ background: radial-gradient(circle, rgba(251,126,63,1) 0%, rgba(210,217,89,1) 10
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  /* background: #0563bb; */
+  background-image: linear-gradient(to bottom, #763ff5, #6732e5, #5824d6, #4915c7, #3800b8);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
